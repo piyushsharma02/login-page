@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <img src="./assets/Illustration.png" alt="Login Illustration" />
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <h1>Welcome to <br><span class="brand-name">Unstop</span></h1>
+            
+    <div class="social-login-container">
+        <!-- Google Login Button -->
+        <button class="social-btn google-btn">
+            <img src="./assets/Frame 1116607310.png" alt="Google Icon" class="social-icon">
+            Login with Google
+        </button>
+
+        <!-- Facebook Login Button -->
+        <button class="social-btn facebook-btn">
+            <img src="./assets/Vector.png" alt="Facebook Icon" class="social-icon">
+            Login with Facebook
+        </button>
+
+        <!-- OR Separator -->
+        <div class="separator">
+            <hr class="line">
+            <span>OR</span>
+            <hr class="line">
+        </div>
+    </div>
+            <!-- Login Form -->
+            <div class="form-container">
+                <form class="login-form" id="login-form">
+                    <!-- Username Field -->
+                    <div class="input-group">
+                        <span class="icon">
+                            <img src="./assets/account_circle.png" alt="User Icon">
+                        </span>
+                        <div class="input-label">User name</div>
+                        <input type="text" id="username" placeholder="username">
+                    </div>
+        
+                    <!-- Email Field -->
+                    <div class="input-group">
+                        <span class="icon">
+                            <img src="./assets/mail.png" alt="Email Icon">
+                        </span>
+                        <div class="input-label">Email</div>
+                        <input type="email"  id="email" placeholder="username@gmail.com">
+                    </div>
+        
+                    <!-- Password Field -->
+                    <div class="input-group">
+                        <span class="icon">
+                            <img src="./assets/key.png" alt="Password Icon">
+                        </span>
+                        <div class="input-label">Password</div>
+                        <input type="password" id="password" placeholder="**********">
+                        <span class="eye-icon"><img src="./assets/visibility.png" alt=""></span>
+                    </div>
+        
+                    <!-- Remember me & Forgot Password -->
+                    <div class="options">
+                        <label>
+                            <input type="checkbox"> Remember me
+                        </label>
+                        <a href="#" class="forgot-password">Forgot Password?</a>
+                    </div>
+        
+                    <!-- Login Button -->
+                    <button type="submit" id="submit" class="login-btn">Login</button>
+        
+                    <!-- Register Link -->
+                    <div class="register-link">
+                        Don’t have an account? <a href="#">Register</a>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+          
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

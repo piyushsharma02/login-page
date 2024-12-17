@@ -1,0 +1,227 @@
+/* Reset and General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+/* Container */
+.container {
+  display: flex;
+  background-color: #fff;
+  width: 900px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Left Section */
+.left-section {
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.left-section img {
+  max-width: 80%;
+}
+
+/* Right Section */
+.right-section {
+  flex: 1;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.brand-name {
+  color: #6b73ff;
+}
+
+
+/* Container */
+.social-login-container {
+  width: 100%;
+  text-align: center;
+}
+
+/* Social Buttons */
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.social-btn img.social-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.google-btn:hover, .facebook-btn:hover {
+  background-color: #f9f9f9;
+}
+
+
+.facebook-btn img {
+  content: url('https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png');
+}
+
+/* Separator */
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.separator .line {
+  flex: 1;
+  height: 1px;
+  background-color: #ddd;
+  border: none;
+  margin: 0 10px;
+}
+
+
+/* Form */
+form .form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  height:16px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #6b73ff;
+  outline: none;
+}
+
+.login-form .input-group {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px 16px;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.input-group .icon img {
+  height: 18px;
+}
+
+.input-group .input-label {
+  font-size: 11px;
+  font-weight:bold;
+  color: #888;
+  position: absolute;
+  top:10px;
+  left: 50px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  font-size: 14px;
+  font-weight:700;
+  margin-top:6px;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 16px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #666;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin: 8px 0 16px;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.options .forgot-password {
+  text-decoration: none;
+  color: #6c63ff;
+}
+
+.login-btn {
+  background-color: #6c63ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 12px;
+}
+
+.register-link a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-btn:hover, .register-link a:hover, .forgot-password:hover {
+  opacity: 0.8;
+}
+
+
